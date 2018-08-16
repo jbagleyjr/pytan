@@ -27,6 +27,7 @@ class PackageSpec(BaseType):
                         'verify_group_id': int,
                         'verify_expire_seconds': int,
                         'skip_lock_flag': int,
+                        'process_group_flag': int,
                         'parameter_definition': str,
                         'creation_time': str,
                         'modification_time': str,
@@ -55,6 +56,7 @@ class PackageSpec(BaseType):
         self.verify_group_id = None
         self.verify_expire_seconds = None
         self.skip_lock_flag = None
+        self.process_group_flag = None
         self.parameter_definition = None
         self.creation_time = None
         self.modification_time = None
